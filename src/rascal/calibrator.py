@@ -1423,7 +1423,7 @@ class Calibrator:
         self._generate_pairs()
 
     def do_hough_transform(self, brute_force=False):
-        if self.pairs == []:
+        if self.pairs.size == 0:
             logging.warning("pairs list is empty. Try generating now.")
             self._generate_pairs()
 
