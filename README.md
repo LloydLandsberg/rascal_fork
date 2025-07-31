@@ -25,7 +25,7 @@ More background information can be referred to this [arXiv article](https://ui.a
 ## Dependencies
 
 *   python >= 3.7
-*   numpy>=1.16,<1.24
+*   numpy>=1.16
 *   scipy>=1.3.3
 *   pynverse>=0.1.4
 *   matplotlib>=3.0.3
